@@ -59,7 +59,7 @@ var sendMail = (user, callback) => {
     let year = date.getFullYear();
     var mailOptions = {
         from: `<josemaria_llanos@hotmail.com>`, //"<Sender’s name>", "<Sender’s email>"
-        to: `<josemaria_llanos@hotmail.com>`,
+        to: `<alexr.torob@hotmail.com>`,
         subject: `${user.codigoCaso}`,
         html: ` <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
