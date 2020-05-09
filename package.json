@@ -1,6 +1,7 @@
 {
     "name": "send-email",
     "version": "1.0.0",
+    "private": true,
     "description": "Proyecto para enviar correos con nodemail",
     "main": "main.js",
     "repository": {
