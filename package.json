@@ -1,15 +1,11 @@
 {
     "name": "send-email",
     "version": "1.0.0",
-    "private": true,
     "description": "Proyecto para enviar correos con nodemail",
     "main": "main.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/alero11/sendmailnodejs.git   "
-    },
-    "engines": {
-        "node": ">=8.0.0"
     },
     "scripts": {
         "start": "node main.js",
