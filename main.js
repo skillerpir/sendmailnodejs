@@ -50,8 +50,8 @@ var sendMail = (user, callback) => {
         port: 587,
         secure: false,
         auth: {
-            user: "josemaria_llanos@hotmail.com",
-            pass: "dragon14",
+            user: "alexr.torob@hotmail.com",
+            pass: "atb4821576",
         },
     });
     let date = new Date();
@@ -59,7 +59,7 @@ var sendMail = (user, callback) => {
     let month = date.getMonth() + 1;
     let year = date.getFullYear();
     var mailOptions = {
-        from: `<josemaria_llanos@hotmail.com>`, //"<Sender’s name>", "<Sender’s email>"
+        from: `<alexr.torob@hotmail.com>`, //"<Sender’s name>", "<Sender’s email>"
         to: `<alexr.torob@hotmail.com>`,
         subject: `${user.codigoCaso}`,
         html: ` <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
